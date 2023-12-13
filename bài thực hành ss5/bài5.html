@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box {
+        width:300px;
+        height:350px;
+        box-shadow:5px 5px 5px 5px;
+        display:flex;
+        flex-direction:column;
+        font-size: 25px;
+        margin:0px auto;
+    }
+    input{
+        width:90%;
+        height:35px;
+        border-radius:5px;
+        border-color: white;
+        box-shadow:2px 2px 2px rgb(145, 145, 139);
+    
+    }
+    
+    .box2{
+        width:100px;
+        color:white;
+        background-color: rgba(77, 135, 241, 0.568);
+        margin-top:10px;
+        position:relative;
+        bottom:5px;
+    }
+    .box1, .box2{
+        margin-left:8px;
+    }
+        
+</style>
+</head>
+<body>
+    <div class="box">
+        <fomr action="/" method="post">
+        <div class="box1">
+            <label>
+                Họ và tên:
+            </label><br>
+            <input type="text" autofocus required placeholder="Họ và tên">
+        </div >
+        <div class="box1">
+            <label>
+                Email:
+            </label><br>
+            <input type="email" required>
+        </div>
+        <div class="box1">
+            <label>
+                Mật khẩu:
+            </label><br>
+            <input type="password" required>
+        </div>
+        <div class="box1">
+            <label>
+                Xác nhận mật khẩu:
+            </label><br>
+            <input type="password" required><br>
+        </div>
+        <div class="box2">
+            <input type="submit" value="Đăng Ký" class="box2">
+        </div>
+        </fomr>
+    </div>
+</body>
+</html>
